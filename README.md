@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# ScreenNest
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**ScreenNest** es una aplicación web para descubrir y explorar películas. Este proyecto está diseñado para ofrecer una experiencia de usuario fluida y atractiva, facilitando la búsqueda y filtrado de películas.
 
-## Available Scripts
+## Características
 
-In the project directory, you can run:
+- 🗂️ **Listado de Películas**: Explora una amplia variedad de películas organizadas en un diseño atractivo.
+- 🔍 **Búsqueda y Filtrado**: Encuentra fácilmente películas por título o filtra por género, año, u otras categorías.
+- 🎬 **Detalles de Películas**: Accede a información detallada sobre cada película, incluyendo sinopsis, elenco, y más.
+- 📱 **Diseño Responsivo**: Disfruta de una experiencia optimizada tanto para dispositivos móviles como para escritorio.
 
-### `npm start`
+## Tecnologías Utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: Biblioteca principal para la creación de la interfaz de usuario.
+- **HTML5** y **CSS3**: Estructura y estilización de la aplicación.
+- **JavaScript (ES6+)**: Lógica y funcionalidades interactivas.
+- **Tailwind CSS**: Framework para un diseño rápido y responsivo.
+- **Styled-Components**: Estilización dinámica dentro de los componentes React.
+- **NextUI**: Biblioteca de componentes para mejorar la UI.
+- **Git** y **GitHub**: Control de versiones y colaboración.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Instalación
 
-### `npm test`
+1. Clona este repositorio en tu máquina local.
+    ```bash
+    git clone https://github.com/tu-usuario/screennest.git
+    ```
+2. Navega al directorio del proyecto.
+    ```bash
+    cd screennest
+    ```
+3. Instala las dependencias necesarias.
+    ```bash
+    npm install
+    ```
+4. Inicia el servidor de desarrollo.
+    ```bash
+    npm start
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Uso
 
-### `npm run build`
+- Navega a `http://localhost:3000` en tu navegador para ver la aplicación en acción.
+- Explora la lista de películas, utiliza la barra de búsqueda y filtros para encontrar películas de tu interés.
+- Haz clic en cualquier película para ver sus detalles completos.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contribuciones
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar ScreenNest, siéntete libre de abrir un issue o enviar un pull request.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Licencia
 
-### `npm run eject`
+Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**ScreenNest**: Tu refugio para explorar el maravilloso mundo del cine.
