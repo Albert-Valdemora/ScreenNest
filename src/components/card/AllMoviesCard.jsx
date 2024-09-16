@@ -23,7 +23,7 @@ export const AllMoviesCard = ({ img, title }) => {
 
   return (
     <AllMoviesCardStyled>
-      <img src={img} alt="Serie" />
+      <img src={`https://image.tmdb.org/t/p/original${img}`} alt="Serie" />
       <div className="title">
         <h4>{title}</h4>
       </div>

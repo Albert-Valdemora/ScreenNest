@@ -1,0 +1,412 @@
+{
+  "page": 1,
+  "results": [
+      {
+          "adult": false,
+          "backdrop_path": "/9l1eZiJHmhr5jIlthMdJN5WYoff.jpg",
+          "genre_ids": [
+              28,
+              35,
+              878
+          ],
+          "id": 533535,
+          "original_language": "en",
+          "original_title": "Deadpool & Wolverine",
+          "overview": "Un apático Wade Wilson se afana en la vida civil tras dejar atrás sus días como Deadpool, un mercenario moralmente flexible. Pero cuando su mundo natal se enfrenta a una amenaza existencial, Wade debe volver a vestirse a regañadientes con un Lobezno aún más reacio a ayudar.",
+          "popularity": 3098.758,
+          "poster_path": "/9TFSqghEHrlBMRR63yTx80Orxva.jpg",
+          "release_date": "2024-07-24",
+          "title": "Deadpool y Lobezno",
+          "video": false,
+          "vote_average": 7.711,
+          "vote_count": 2872
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/mKOBdgaEFguADkJhfFslY7TYxIh.jpg",
+          "genre_ids": [
+              28,
+              878,
+              35,
+              12,
+              53
+          ],
+          "id": 365177,
+          "original_language": "en",
+          "original_title": "Borderlands",
+          "overview": "Lilith, una infame cazatesoros con un misterioso pasado, regresa a su planeta natal de Pandora para encontrar a la hija desaparecida del poderoso Atlas. Para ello forma una alianza inesperada con un heterogéneo equipo de inadaptados: Roland, un antiguo mercenario de élite ahora desesperado por la redención; Tiny Tina, una demolicionista salvaje preadolescente; Krieg, el musculoso protector de Tina; la científica Tannis; y Claptrap, un robot muy peculiar. Estos extraños héroes deberán luchar contra monstruos alienígenas y peligrosos bandidos para buscar y proteger a la niña desaparecida, que puede tener la clave de un poder inimaginable.",
+          "popularity": 2505.726,
+          "poster_path": "/jtEZi4eZxDjxcDIeMbkQ8HmvRs1.jpg",
+          "release_date": "2024-08-07",
+          "title": "Borderlands",
+          "video": false,
+          "vote_average": 5.848,
+          "vote_count": 502
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/cyKH7pDFlxIXluqRyNoHHEpxSDX.jpg",
+          "genre_ids": [
+              80,
+              28,
+              53
+          ],
+          "id": 646097,
+          "original_language": "en",
+          "original_title": "Rebel Ridge",
+          "overview": "Un exmarine se enfrenta a la corrupción en una pequeña ciudad cuando la policía local le confisca, de forma injusta, la bolsa de dinero que necesita para la fianza de su primo.",
+          "popularity": 1823.796,
+          "poster_path": "/ymTgBQ8rCouE27oHpAUfgKEgRAj.jpg",
+          "release_date": "2024-08-27",
+          "title": "Rebel Ridge",
+          "video": false,
+          "vote_average": 7.015,
+          "vote_count": 493
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/stKGOm8UyhuLPR9sZLjs5AkmncA.jpg",
+          "genre_ids": [
+              16,
+              10751,
+              12,
+              35,
+              14
+          ],
+          "id": 1022789,
+          "original_language": "en",
+          "original_title": "Inside Out 2",
+          "overview": "Riley entra en la adolescencia y el Cuartel General de su cabeza sufre una repentina reforma para hacerle hueco a algo totalmente inesperado propio de la pubertad: ¡nuevas emociones! Alegría, Tristeza, Ira, Miedo y Asco, con años de impecable gestión a sus espaldas (según ellos...) no saben muy bien qué sentir cuando aparece con enorme ímpetu Ansiedad. Y no viene sola: le acompañan envidia, vergüenza y aburrimiento. Secuela de 'Inside Out'.",
+          "popularity": 1871.468,
+          "poster_path": "/aQnbNiadeGzGSjWLaXyeNxpAUIx.jpg",
+          "release_date": "2024-06-11",
+          "title": "Del revés 2 (Inside Out 2)",
+          "video": false,
+          "vote_average": 7.7,
+          "vote_count": 3548
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/cgKZtNSETjXJPkAQ4rasV7dnyQH.jpg",
+          "genre_ids": [
+              35,
+              14,
+              27
+          ],
+          "id": 917496,
+          "original_language": "en",
+          "original_title": "Beetlejuice Beetlejuice",
+          "overview": "Después de una tragedia familiar inesperada, tres generaciones de la familia Deetz regresan a su hogar en la pequeña ciudad de Winter River. La vida de Lydia, que sigue atormentada por Bitelchús, da un vuelco cuando Astrid, su rebelde hija adolescente, descubre la misteriosa maqueta de la ciudad en el ático y el portal al Más Allá se abre de forma accidental. Con tantos problemas en ambos mundos, es sólo cuestión de tiempo que alguien diga tres veces el nombre de Bitelchús y el travieso demonio vuelva a las andadas para desatar su particular caos.",
+          "popularity": 1593.764,
+          "poster_path": "/kWJw7dCWHcfMLr0irTHAPIKrJ4I.jpg",
+          "release_date": "2024-09-04",
+          "title": "Bitelchús Bitelchús",
+          "video": false,
+          "vote_average": 7.199,
+          "vote_count": 462
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/lgkPzcOSnTvjeMnuFzozRO5HHw1.jpg",
+          "genre_ids": [
+              16,
+              10751,
+              35,
+              28
+          ],
+          "id": 519182,
+          "original_language": "en",
+          "original_title": "Despicable Me 4",
+          "overview": "Gru, Lucy y las niñas -Margo, Edith y Agnes- dan la bienvenida a un nuevo miembro en la familia: Gru Junior, que parece llegar con el propósito de ser un suplicio para su padre. Gru tendrá que enfrentarse en esta ocasión a su nueva némesis Maxime Le Mal y su sofisticada y malévola novia Valentina, lo que obligará a la familia a tener que darse a la fuga. Cuarta entrega de 'Gru, mi villano favorito'.",
+          "popularity": 1679.193,
+          "poster_path": "/wTpzSDfbUuHPEgqgt5vwVtPHhrb.jpg",
+          "release_date": "2024-06-20",
+          "title": "Gru 4. Mi villano favorito",
+          "video": false,
+          "vote_average": 7.185,
+          "vote_count": 1585
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/rwakNepsh0dXVcTtWKUVbDsSYYZ.jpg",
+          "genre_ids": [
+              28,
+              80,
+              53,
+              35
+          ],
+          "id": 573435,
+          "original_language": "en",
+          "original_title": "Bad Boys: Ride or Die",
+          "overview": "Los policías más famosos del mundo regresan con su icónica mezcla de acción al límite y comedia escandalosa, pero esta vez con un giro inesperado: ¡Los mejores de Miami se dan a la fuga! Cuarta entrega de la saga 'Dos policías rebeldes'.",
+          "popularity": 1359.48,
+          "poster_path": "/zp0Y7Nsl4UnWiwX4LxXQXgDfXSz.jpg",
+          "release_date": "2024-06-05",
+          "title": "Bad Boys: Ride or Die",
+          "video": false,
+          "vote_average": 7.5,
+          "vote_count": 1922
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/tCQfubckzzcuCbsGugkpLhfjS5z.jpg",
+          "genre_ids": [
+              28,
+              53,
+              80
+          ],
+          "id": 970347,
+          "original_language": "en",
+          "original_title": "The Killer",
+          "overview": "Zee es una temida asesina a sueldo conocida como “la Reina de los Muertos”, pero cuando se niega a asesinar a una joven ciega, se encuentra perseguida tanto por sus colegas criminales como por un decidido detective de policía.",
+          "popularity": 955.768,
+          "poster_path": "/6PCnxKZZIVRanWb710pNpYVkCSw.jpg",
+          "release_date": "2024-08-22",
+          "title": "The Killer",
+          "video": false,
+          "vote_average": 6.561,
+          "vote_count": 197
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/yRKyJJYIzfeiVDHBe4LXguPQCvD.jpg",
+          "genre_ids": [
+              14,
+              35
+          ],
+          "id": 4011,
+          "original_language": "en",
+          "original_title": "Beetlejuice",
+          "overview": "¿Qué debería hacer una pareja de fantasmas si su estrafalario hogar de Nueva Inglaterra se llenara de elegantes visitantes neoyorquinos? Pedir ayuda a un exorcista para aterrorizar a los intrusos con el fin de que abandonen la casa. Bitelchús es una criatura de ultratumba repugnante y terrorífica, un fenómeno asustando y bromeando que se gira y se transforma en grotescas formas, traga insectos y no puede dejar a las mujeres (vivas o muertas) en paz.",
+          "popularity": 958.259,
+          "poster_path": "/2LanWSlqSOtyvQiIaoYz448oBSl.jpg",
+          "release_date": "1988-03-30",
+          "title": "Bitelchús",
+          "video": false,
+          "vote_average": 7.381,
+          "vote_count": 7010
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/9juRmk8QjcsUcbrevVu5t8VZy5G.jpg",
+          "genre_ids": [
+              28,
+              12,
+              80,
+              53
+          ],
+          "id": 923667,
+          "original_language": "cn",
+          "original_title": "九龍城寨之圍城",
+          "overview": "En los años ochenta, el único lugar de Hong Kong donde no se aplicaba la ley británica era la temida Ciudad Amurallada de Kowloon, un enclave entregado a las bandas y al tráfico de todo tipo. Huyendo del poderoso jefe de las tríadas Mr. Big, el emigrante ilegal Chan Lok-kwun se refugia en Kowloon City, donde es acogido bajo la protección de Ciclón, líder de la Ciudadela. Junto a los demás marginados de su clan, tendrán que hacer frente a la invasión de la banda de Mr. Big y proteger el refugio en que se ha convertido para ellos la ciudad fortificada.",
+          "popularity": 916.146,
+          "poster_path": "/wPJVSxlEaBxiqHREJ25Yw21EaOn.jpg",
+          "release_date": "2024-04-23",
+          "title": "Twilight of the Warriors: Walled In",
+          "video": false,
+          "vote_average": 6.708,
+          "vote_count": 137
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/9BQqngPfwpeAfK7c2H3cwIFWIVR.jpg",
+          "genre_ids": [
+              10749,
+              18
+          ],
+          "id": 1079091,
+          "original_language": "en",
+          "original_title": "It Ends with Us",
+          "overview": "Una mujer atraviesa las tumultuosas etapas de una relación abusiva. Tras mudarse a la ciudad de Boston después de la universidad, decide iniciar su propio negocio como florista y se enamora de un joven neurocirujano.",
+          "popularity": 798.616,
+          "poster_path": "/4c3IdUFnS8qd3qrMol1b3Rq5MqF.jpg",
+          "release_date": "2024-08-07",
+          "title": "Romper el círculo",
+          "video": false,
+          "vote_average": 6.738,
+          "vote_count": 294
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/7aPrv2HFssWcOtpig5G3HEVk3uS.jpg",
+          "genre_ids": [
+              28,
+              12,
+              53
+          ],
+          "id": 718821,
+          "original_language": "en",
+          "original_title": "Twisters",
+          "overview": "Kate Carter, una ex cazadora de tormentas perseguida por un devastador encuentro con un tornado, es llamada por su amigo Javi de regreso a las llanuras para probar un nuevo e innovador sistema de seguimiento. Allí, se cruza con el encantador e imprudente ídolo de las redes sociales Tyler Owens y su estridente equipo. A medida que la temporada de tormentas se intensifica, se desatan fenómenos terroríficos nunca vistos, y Kate, Tyler y sus equipos competidores se encuentran directamente en el camino de múltiples sistemas de tormentas que convergen sobre Oklahoma en lo que será una lucha por sobrevivir.",
+          "popularity": 935.713,
+          "poster_path": "/50xgtaDR0xJkLSVghdTGUeMoPHP.jpg",
+          "release_date": "2024-07-10",
+          "title": "Twisters",
+          "video": false,
+          "vote_average": 6.979,
+          "vote_count": 1383
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/9SSEUrSqhljBMzRe4aBTh17rUaC.jpg",
+          "genre_ids": [
+              27,
+              878
+          ],
+          "id": 945961,
+          "original_language": "en",
+          "original_title": "Alien: Romulus",
+          "overview": "Mientras rebuscan en las profundidades de una estación espacial abandonada, un grupo de jóvenes colonizadores del espacio se encuentra cara a cara con la forma de vida más aterradora del universo. Nueva película de la saga Alien.",
+          "popularity": 797.015,
+          "poster_path": "/8PYqGSd8MOm5ce8io4qNSAiSExW.jpg",
+          "release_date": "2024-08-13",
+          "title": "Alien: Romulus",
+          "video": false,
+          "vote_average": 7.094,
+          "vote_count": 980
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/p5kpFS0P3lIwzwzHBOULQovNWyj.jpg",
+          "genre_ids": [
+              80,
+              53
+          ],
+          "id": 1032823,
+          "original_language": "en",
+          "original_title": "Trap",
+          "overview": "Un padre y su hija adolescente asisten a un concierto de música pop, donde se dan cuenta de que están en el centro de un oscuro y siniestro suceso.",
+          "popularity": 665.409,
+          "poster_path": "/oY9SRUcRqdrjyINFoGewobSP7FB.jpg",
+          "release_date": "2024-07-31",
+          "title": "La trampa",
+          "video": false,
+          "vote_average": 6.524,
+          "vote_count": 1049
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/hdFIdXwS8FSN2wIsuotjW1mshI0.jpg",
+          "genre_ids": [
+              16,
+              35,
+              12,
+              10751
+          ],
+          "id": 831815,
+          "original_language": "en",
+          "original_title": "Saving Bikini Bottom: The Sandy Cheeks Movie",
+          "overview": "Cuando Fondo de Bikini es arrastrado fuera del mar, la ardilla científica Arenita Mejillas y su amigo Bob Esponja se embarcan rumbo a Texas para salvar su ciudad.",
+          "popularity": 723.257,
+          "poster_path": "/q8LdEq7DyeeHRWjhy8USd1CmesU.jpg",
+          "release_date": "2024-08-01",
+          "title": "Al rescate de Fondo de Bikini: La película de Arenita Mejillas",
+          "video": false,
+          "vote_average": 6.36,
+          "vote_count": 211
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/1wP1phHo2CROOqzv7Azs0MT5esU.jpg",
+          "genre_ids": [
+              16,
+              35,
+              10751,
+              12,
+              28
+          ],
+          "id": 748783,
+          "original_language": "en",
+          "original_title": "The Garfield Movie",
+          "overview": "El mundialmente famoso Garfield, el gato casero que odia los lunes y que adora la lasaña, está a punto de vivir una aventura ¡en el salvaje mundo exterior! Tras una inesperada reunión con su largamente perdido padre – el desaliñado gato callejero Vic – Garfield y su amigo canino Odie se ven forzados a abandonar sus perfectas y consentidas vidas al unirse a Vic en un hilarante y muy arriesgado atraco.",
+          "popularity": 741.176,
+          "poster_path": "/6QR2FOCQr41gSduN70WulRIhJb7.jpg",
+          "release_date": "2024-04-30",
+          "title": "Garfield: La película",
+          "video": false,
+          "vote_average": 7.125,
+          "vote_count": 919
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/x2thJwMJ6oGlhn7UC4vSwHltEw0.jpg",
+          "genre_ids": [
+              28,
+              53,
+              10770
+          ],
+          "id": 1115396,
+          "original_language": "en",
+          "original_title": "Hunting Games",
+          "overview": "Cuando se contrata a un grupo de exmilitares para recuperar una bolsa perdida de dinero robado, su misión se vuelve más difícil después de que un cazador solitario encuentra la bolsa primero.",
+          "popularity": 722.555,
+          "poster_path": "/i0gkzEpk4TIJX5jFZVtNJhC3BIL.jpg",
+          "release_date": "2023-05-12",
+          "title": "Hunting Games",
+          "video": false,
+          "vote_average": 4.563,
+          "vote_count": 8
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/qwK9soQmmJ7kRdjLZVXblw3g7AQ.jpg",
+          "genre_ids": [
+              28,
+              12,
+              53,
+              80
+          ],
+          "id": 7451,
+          "original_language": "en",
+          "original_title": "xXx",
+          "overview": "Xander Cage es XXX, un antiguo ganador de X-Games y atleta profesional de deportes de extremo, que sobrevive vendiendo videos de sus increíbles hazañas, las cuales hacen emitir adrenalina por todo el cuerpo. Pero después de incontables encuentros con la ley, su mundo está a punto de tomar un rumbo aún más extremo... Porque Xander no sabe que ha sido \"espiado\" por Augustus Gibbons, un agente veterano de la Agencia Nacional de Seguridad que se encuentra en una desesperada situación en la distante ciudad de Praga, en donde su operativo secreto ha sido asesinado por una pandilla de mafiosos con un estilo muy propio, que se llaman así mismos Anarchy 99, encabezados por el brutal ex-Comandante del Ejército Ruso Yorgi.",
+          "popularity": 428.527,
+          "poster_path": "/gd4hRY3pFXRY7YVbMdVBpnKV7wC.jpg",
+          "release_date": "2002-08-09",
+          "title": "xXx",
+          "video": false,
+          "vote_average": 5.937,
+          "vote_count": 4182
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/okVLmXL5y18dfN2R4ufMZEGaeCd.jpg",
+          "genre_ids": [
+              28,
+              80
+          ],
+          "id": 1160018,
+          "original_language": "hi",
+          "original_title": "किल",
+          "overview": "Un pasajero en un tren a Nueva Delhi. El tren pronto se convierte en un campo de batalla en el que un par de comandos se enfrentan a un ejército de bandidos invasores.",
+          "popularity": 686.976,
+          "poster_path": "/j8aqIMzHnVHgS98CD6lXtspSV2S.jpg",
+          "release_date": "2024-07-03",
+          "title": "किल",
+          "video": false,
+          "vote_average": 6.809,
+          "vote_count": 136
+      },
+      {
+          "adult": false,
+          "backdrop_path": "/4ft6TR9wA6bra0RLL6G7JFDQ5t1.jpg",
+          "genre_ids": [
+              28,
+              35
+          ],
+          "id": 704239,
+          "original_language": "en",
+          "original_title": "The Union",
+          "overview": "Un obrero de Nueva Jersey pasa de ser un tío normal a un aspirante a espía cuando su novia del instituto, desaparecida desde hace tiempo, lo recluta para una misión de espionaje.",
+          "popularity": 659.664,
+          "poster_path": "/1UHp2QEBPnTrcx0i6aYw6jWtDbI.jpg",
+          "release_date": "2024-08-15",
+          "title": "El sindicato",
+          "video": false,
+          "vote_average": 6.254,
+          "vote_count": 625
+      }
+  ],
+  "total_pages": 46046,
+  "total_results": 920913
+}

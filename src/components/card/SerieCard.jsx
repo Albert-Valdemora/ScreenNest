@@ -32,7 +32,7 @@ export const SerieCard = ({ img, title }) => {
 
   return (
     <SerieCardStyled>
-      <img src={img} alt="Serie" />
+      <img src={`https://image.tmdb.org/t/p/original${img}`} alt="Serie" />
       <div className="title">
         <h2>{title}</h2>
       </div>
