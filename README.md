@@ -48,10 +48,6 @@
 
 ¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar ScreenNest, siéntete libre de abrir un issue o enviar un pull request.
 
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
-
 ---
 
 **ScreenNest**: Tu refugio para explorar el maravilloso mundo del cine.
