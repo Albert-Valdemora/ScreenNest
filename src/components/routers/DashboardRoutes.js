@@ -6,6 +6,7 @@ import { FAQs } from '../info/FAQs'
 import { PrivacyPolicy } from '../info/PrivacyPolicy'
 import { TermsConditions } from '../info/TermsConditions'
 import { DMCAPolicy } from '../info/DMCAPolicy'
+import { Inicio } from '../view/Inicio'
 
 
 export const DashboardRoutes = () => {
@@ -14,6 +15,7 @@ export const DashboardRoutes = () => {
       <Navbar />
 
       <Routes>
+        <Route path='/' element={<Inicio />} />
         <Route path='AboutUs' element={<AboutUs />} />
         <Route path='FAQs' element={<FAQs />} />
         <Route path='PrivacyPolicy' element={<PrivacyPolicy />} />

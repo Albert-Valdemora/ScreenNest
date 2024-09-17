@@ -286,27 +286,6 @@
       },
       {
           "adult": false,
-          "backdrop_path": "/hdFIdXwS8FSN2wIsuotjW1mshI0.jpg",
-          "genre_ids": [
-              16,
-              35,
-              12,
-              10751
-          ],
-          "id": 831815,
-          "original_language": "en",
-          "original_title": "Saving Bikini Bottom: The Sandy Cheeks Movie",
-          "overview": "Cuando Fondo de Bikini es arrastrado fuera del mar, la ardilla científica Arenita Mejillas y su amigo Bob Esponja se embarcan rumbo a Texas para salvar su ciudad.",
-          "popularity": 723.257,
-          "poster_path": "/q8LdEq7DyeeHRWjhy8USd1CmesU.jpg",
-          "release_date": "2024-08-01",
-          "title": "Al rescate de Fondo de Bikini: La película de Arenita Mejillas",
-          "video": false,
-          "vote_average": 6.36,
-          "vote_count": 211
-      },
-      {
-          "adult": false,
           "backdrop_path": "/1wP1phHo2CROOqzv7Azs0MT5esU.jpg",
           "genre_ids": [
               16,
@@ -405,7 +384,27 @@
           "video": false,
           "vote_average": 6.254,
           "vote_count": 625
-      }
+      },
+      {
+        "adult": false,
+        "backdrop_path": "/9l1eZiJHmhr5jIlthMdJN5WYoff.jpg",
+        "genre_ids": [
+            28,
+            35,
+            878
+        ],
+        "id": 533535,
+        "original_language": "en",
+        "original_title": "Deadpool & Wolverine",
+        "overview": "Un apático Wade Wilson se afana en la vida civil tras dejar atrás sus días como Deadpool, un mercenario moralmente flexible. Pero cuando su mundo natal se enfrenta a una amenaza existencial, Wade debe volver a vestirse a regañadientes con un Lobezno aún más reacio a ayudar.",
+        "popularity": 3098.758,
+        "poster_path": "/9TFSqghEHrlBMRR63yTx80Orxva.jpg",
+        "release_date": "2024-07-24",
+        "title": "Deadpool y Lobezno",
+        "video": false,
+        "vote_average": 7.711,
+        "vote_count": 2872
+    }
   ],
   "total_pages": 46046,
   "total_results": 920913
