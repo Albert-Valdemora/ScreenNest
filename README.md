@@ -23,11 +23,11 @@
 
 1. Clona este repositorio en tu máquina local.
     ```bash
-    git clone https://github.com/tu-usuario/screennest.git
+    git clone https://github.com/Albert-Valdemora/ScreenNest.git
     ```
 2. Navega al directorio del proyecto.
     ```bash
-    cd screennest
+    cd ScreenNest
     ```
 3. Instala las dependencias necesarias.
     ```bash
@@ -47,10 +47,6 @@
 ## Contribuciones
 
 ¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar ScreenNest, siéntete libre de abrir un issue o enviar un pull request.
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
 
 ---
 
