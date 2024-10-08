@@ -3,21 +3,27 @@ import { AllSeriesCard } from "../card/AllSeriesCard";
 import { MostWatchedSeriesCard } from "../card/MostWatchedSeriesCard";
 import { SerieCard } from "../card/SerieCard";
 import { Titulo } from "../title/Titulo";
-import data from "../../data.json";
 import { TopSeries } from "../card/TopSeries";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { SecondNavbar } from "../menu/SecondNavbar";
+import { AuthContext } from "../../auth/authContext";
 
 export const Inicio = () => {
-  
-  const [categorias, setCategorias] = useState(['Best Movies', 'Best Movies', 'Best Movies'])
-  const { results } = data;
 
-  const series = results.slice(0, 4);
-  const seriesMasVistas = results.slice(4, 8);
-  const todasLasSeries = results.slice(0, 20);
-  const todasLasPeliculas = results.slice(0, 6);
-  const topSeries = results.slice(0, 5);
+  const [categorias, setCategorias] = useState(['Best Movies', 'Best Movies', 'Best Movies'])
+  const {serie, mostWatchedSeries, allSerie, allMovie, topSerie}  = useContext(AuthContext)
+
+  
+  const series = serie.results?.slice(4, 8) || [];
+  const seriesMasVistas = mostWatchedSeries.results?.slice(4, 8) || [];
+  const todasLasSeries = allSerie.results?.slice(0, 20) || [];
+  const todasLasPeliculas = allMovie.results?.slice(0, 6) || [];
+  const topSeries = topSerie.results?.slice(0, 5) || [];
+  
+  
+  
+  
+
 
   return (
     <>
@@ -31,9 +37,13 @@ export const Inicio = () => {
                 <TopSeries
                   key={s.id}
                   img={s.poster_path}
-                  title={s.original_title}
-                  overview={s.overview}
+                  title={s.original_name}
+                  
+                  overview={s.overview === "" 
+                    ?"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." 
+                    : s.overview}
                   top={(i + 1) + "°"}
+                  range={s.vote_average}
                 />
               ))}
             </div>
@@ -57,7 +67,6 @@ export const Inicio = () => {
           <div className="col-1"></div>
 
           <div className=" col-8">
-
             <section id="Series" className="mb-4">
               <Titulo titulo="Series" />
               <div className="d-flex flex-wrap justify-between mt-3">
@@ -65,7 +74,7 @@ export const Inicio = () => {
                   <SerieCard
                     key={s.id}
                     img={s.poster_path}
-                    title={s.original_title}
+                    title={s.original_name}
                   />
                 ))}
               </div>
@@ -78,7 +87,7 @@ export const Inicio = () => {
                   <MostWatchedSeriesCard
                     key={s.id}
                     img={s.poster_path}
-                    title={s.original_title}
+                    title={s.original_name}
                   />
                 ))}
               </div>
@@ -91,7 +100,7 @@ export const Inicio = () => {
                   <AllSeriesCard
                     key={s.id}
                     img={s.poster_path}
-                    title={s.original_title}
+                    title={s.original_name}
                   />
                 ))}
               </div>

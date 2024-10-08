@@ -1,5 +1,5 @@
 
-export const TopSeries = ({ img, title, overview, top }) => {
+export const TopSeries = ({ img, title, overview, top, range }) => {
 
   return(
     <div className="flex w-full gap-3 text-white  ">
@@ -10,7 +10,7 @@ export const TopSeries = ({ img, title, overview, top }) => {
         <h3 className="text-3xl font-extrabold">{top}</h3>
         <h4 className="w-64 truncate text-2xl font-extrabold whitespace-nowrap">{ title }</h4>
         <p className="w-64 truncate">{ overview }</p>
-        <p>⭐ 9.5/10</p>
+        <p>⭐ {range.toFixed(1)}/10</p>
       </div>
     </div>
   );
