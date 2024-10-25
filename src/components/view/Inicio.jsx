@@ -11,13 +11,16 @@ import { Busqueda } from "../busqueda/Busqueda";
 import { Footer } from "../pie/Footer";
 
 export const Inicio = () => {
-  const categorias = [ 
-    "Best Movies",
-    "Best Movies",
-    "Best Movies",
-  ]
-  const { serie, mostWatchedSeries, allSerie, allMovie, topSerie, search, peliculaEncontrada } =
-    useContext(AuthContext);
+  const categorias = ["Best Movies", "Best Movies", "Best Movies"];
+  const {
+    serie,
+    mostWatchedSeries,
+    allSerie,
+    allMovie,
+    topSerie,
+    search,
+    peliculaEncontrada,
+  } = useContext(AuthContext);
 
   const series = serie.results?.slice(4, 8) || [];
   const seriesMasVistas = mostWatchedSeries.results?.slice(4, 8) || [];
@@ -57,8 +60,8 @@ export const Inicio = () => {
                 </button>
               ))}
             </div>
-<Titulo titulo="QUICK LINKS" />
-            
+            <Titulo titulo="QUICK LINKS" />
+
             <div>
               <SecondNavbar />
             </div>
@@ -142,15 +145,15 @@ export const Inicio = () => {
                     ))}
                   </div>
                 </section>
-                <Titulo titulo=''/>
+                <Titulo titulo="" />
               </>
             )}
           </div>
         </div>
       </div>
-        <div className=" bg-[#636363] w-full mt-10 h-10 ">
-          <Footer />
-        </div>
+      <div className=" bg-[#636363] w-full mt-10 h-10 ">
+        <Footer />
+      </div>
     </>
   );
 };
