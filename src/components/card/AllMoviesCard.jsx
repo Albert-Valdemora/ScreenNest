@@ -5,6 +5,7 @@ const AllMoviesCardStyled = styled.div`
   width: 325px;
   height: 183px;
   margin-bottom: 60px;
+  transition: transform 0.3s ease;
 
   img {
     width: 100%;
@@ -18,6 +19,10 @@ const AllMoviesCardStyled = styled.div`
     padding: 15px;
     color: #fff;
     font-size: 15px;
+  }
+
+  &:hover{
+    transform: scale(1.05);
   }
 `;
 

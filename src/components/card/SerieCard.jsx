@@ -7,6 +7,7 @@ const SerieCardStyled = styled.div`
   height: 171px;
   position: relative;
   overflow: hidden;
+  transition: transform 0.3s ease; 
 
   img {
     width: 100%;
@@ -28,6 +29,10 @@ const SerieCardStyled = styled.div`
     background-color: rgba(0, 0, 0, 0.4);
     font-weight: bold;
     font-size: 20px;
+  }
+
+  &:hover {
+    transform: scale(1.05); 
   }
 `;
 export const SerieCard = ({ id, img, title }) => {

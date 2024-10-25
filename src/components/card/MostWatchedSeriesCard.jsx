@@ -7,6 +7,7 @@ const MostWatchedSeriesCardStyled = styled.div`
   height: 336px;
   position: relative;
   overflow: hidden;
+  transition: transform 0.3s ease; 
 
   img {
     width: 100%;
@@ -30,6 +31,10 @@ const MostWatchedSeriesCardStyled = styled.div`
     background-color: rgba(0, 0, 0, 0.5);
     font-size: 20px;
     font-weight: bold;
+  }
+
+  &:hover {
+    transform: scale(1.05); 
   }
 `;
 export const MostWatchedSeriesCard = ({id, img, title }) => {

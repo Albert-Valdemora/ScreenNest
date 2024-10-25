@@ -5,6 +5,7 @@ const AllSeriesCardStyled = styled.div`
   width: 191px;
   height: 275px;
   margin-bottom: 70px;
+  transition: transform 0.3s ease; 
 
   img {
     width: 100%;
@@ -19,12 +20,16 @@ const AllSeriesCardStyled = styled.div`
     color: #fff;
     font-size: 15px;
   }
+
+  &:hover {
+    transform: scale(1.05); 
+  }
 `;
 
 export const AllSeriesCard = ({ id, img, title }) => {
   return (
     <AllSeriesCardStyled>
-      <Link to={`/moviePeli/${id}`}> 
+      <Link to={`/moviePeli/${id}`}>
         <img src={`https://image.tmdb.org/t/p/original${img}`} alt="Serie" />
         <div className="title">
           <h4>{title}</h4>
