@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   const navigation = [
@@ -17,7 +17,7 @@ export const Footer = () => {
   return (
     <div className=" h-full flex justify-between items-center px-5">
       <div className="text-white">
-        <p>Copyrights © 2020-23, Pursuit Movies - All Rights Reserved.</p>
+        <p>Copyrights © 2024, Albert Valdemora - Todos los derechos reservados.</p>
       </div>
       <div className="flex gap-4">
         {navigation.map((item) => (
