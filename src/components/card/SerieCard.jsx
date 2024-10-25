@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const SerieCardStyled = styled.div`
@@ -29,13 +30,15 @@ const SerieCardStyled = styled.div`
     font-size: 20px;
   }
 `;
-export const SerieCard = ({ img, title }) => {
+export const SerieCard = ({ id, img, title }) => {
   return (
     <SerieCardStyled>
-      <img src={`https://image.tmdb.org/t/p/original${img}`} alt="Serie" />
-      <div className="title">
-        <h2>{title}</h2>
-      </div>
+      <Link to={`/moviePeli/${id}`}>
+        <img src={`https://image.tmdb.org/t/p/original${img}`} alt="Serie" />
+        <div className="title">
+          <h2>{title}</h2>
+        </div>
+      </Link>
     </SerieCardStyled>
   );
 };

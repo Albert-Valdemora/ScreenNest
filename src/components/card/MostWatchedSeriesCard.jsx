@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const MostWatchedSeriesCardStyled = styled.div`
@@ -31,13 +32,15 @@ const MostWatchedSeriesCardStyled = styled.div`
     font-weight: bold;
   }
 `;
-export const MostWatchedSeriesCard = ({ img, title }) => {
+export const MostWatchedSeriesCard = ({id, img, title }) => {
   return (
     <MostWatchedSeriesCardStyled>
-      <img src={`https://image.tmdb.org/t/p/original${img}`} alt="Serie" />
-      <div className="title">
-        <h2>{title}</h2>
-      </div>
+      <Link to={`/moviePeli/${id}`}>
+        <img src={`https://image.tmdb.org/t/p/original${img}`} alt="Serie" />
+        <div className="title">
+          <h2>{title}</h2>
+        </div>
+      </Link>
     </MostWatchedSeriesCardStyled>
   );
 };

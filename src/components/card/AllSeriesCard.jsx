@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const AllSeriesCardStyled = styled.div`
@@ -21,13 +21,15 @@ const AllSeriesCardStyled = styled.div`
   }
 `;
 
-export const AllSeriesCard = ({ img, title }) => {
+export const AllSeriesCard = ({ id, img, title }) => {
   return (
     <AllSeriesCardStyled>
-      <img src={`https://image.tmdb.org/t/p/original${img}`} alt="Serie" />
-      <div className="title">
-        <h4>{title}</h4>
-      </div>
+      <Link to={`/moviePeli/${id}`}> 
+        <img src={`https://image.tmdb.org/t/p/original${img}`} alt="Serie" />
+        <div className="title">
+          <h4>{title}</h4>
+        </div>
+      </Link>
     </AllSeriesCardStyled>
   );
 };

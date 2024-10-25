@@ -7,6 +7,7 @@ import { PrivacyPolicy } from '../info/PrivacyPolicy'
 import { TermsConditions } from '../info/TermsConditions'
 import { DMCAPolicy } from '../info/DMCAPolicy'
 import { Inicio } from '../view/Inicio'
+import { MoviePeli } from '../movie&serie/MoviePeli'
 
 
 export const DashboardRoutes = () => {
@@ -21,6 +22,7 @@ export const DashboardRoutes = () => {
         <Route path='PrivacyPolicy' element={<PrivacyPolicy />} />
         <Route path='TermsConditions' element={<TermsConditions />} />
         <Route path='DMCAPolicy' element={<DMCAPolicy />} />
+        <Route path='moviePeli/:moviePeliId' element={<MoviePeli />} />
       </Routes>
     </>
   )
