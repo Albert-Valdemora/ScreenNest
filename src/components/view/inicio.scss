@@ -1,0 +1,57 @@
+//Tablet
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  
+  .container-screen-full{
+    display: flex;
+    justify-content: center;
+
+    .col-3{
+      display: none;
+    }
+
+    .col-8{
+      width: 550px;
+      overflow: hidden;
+    }
+
+    .container-series,
+    .container-most-serie,
+    .container-all-serie,
+    .container-all-movie{
+      gap: 20px;
+      justify-content: center; 
+    }
+
+  }  
+  
+}
+
+
+//Phone
+@media screen and (max-width: 767px) {
+  .container-screen-full{
+    display: flex;
+    justify-content: center;
+
+    .col-3{
+      display: none;
+    }
+
+    .col-8{
+      overflow: hidden;
+    }
+
+    .container-series,
+    .container-most-serie,
+    .container-all-serie,
+    .container-all-movie{
+      width: 100%;
+      justify-content: center; 
+      gap: 10px;
+      overflow:scroll;
+      
+    }
+
+  }  
+}
+

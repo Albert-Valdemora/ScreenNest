@@ -24,7 +24,7 @@ export const Navbar = () => {
     <Disclosure as="nav" className=" bg-[#191818]">
       {({ open }) => (
         <>
-          <div className="mx-auto w-7xl px-24 ">
+          <div className="mx-auto w-7xl px-24">
             <div className="relative flex h-16 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Botón del menú móvil */}

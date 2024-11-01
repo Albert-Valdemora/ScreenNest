@@ -15,6 +15,8 @@ const TituloH2 = styled.h2`
   white-space: nowrap;
   z-index: 1;
   margin-bottom: 10px;
+  text-overflow: ellipsis;
+  overflow: hidden;
 `;
 
 const Linea = styled.div`

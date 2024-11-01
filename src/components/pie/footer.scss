@@ -1,0 +1,29 @@
+//Tablet
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  
+  .container-footer{
+    font-size: 12px;
+    overflow: hidden;
+
+  }
+  
+}
+
+
+
+
+//Phone
+@media screen and (max-width: 767px) {
+  .container-footer{
+    font-size: 12px;
+    overflow: hidden;
+    justify-content: center;
+
+    .container-menu{
+      display: none;
+    }
+  } 
+
+
+
+}

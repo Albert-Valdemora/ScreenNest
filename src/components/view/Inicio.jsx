@@ -9,6 +9,8 @@ import { SecondNavbar } from "../menu/SecondNavbar";
 import { AuthContext } from "../../auth/authContext";
 import { Busqueda } from "../busqueda/Busqueda";
 import { Footer } from "../pie/Footer";
+import './inicio.scss';
+
 
 export const Inicio = () => {
   const categorias = ["Best Movies", "Best Movies", "Best Movies"];
@@ -31,7 +33,7 @@ export const Inicio = () => {
   return (
     <>
       <div className="container">
-        <div className="row">
+        <div className="row container-screen-full">
           <div className="col-3">
             <Titulo titulo="Top 5 Series" color="#FFE400" />
             <div className="flex flex-col gap-4">
@@ -69,7 +71,7 @@ export const Inicio = () => {
 
           <div className="col-1"></div>
 
-          <div className=" col-8">
+          <div className="col-8">
             <section id="search" className="mb-4 mt-3">
               <Busqueda />
             </section>
@@ -92,7 +94,7 @@ export const Inicio = () => {
               <>
                 <section id="Series" className="mb-4">
                   <Titulo titulo="Series" />
-                  <div className="d-flex flex-wrap justify-between mt-3">
+                  <div className="w-full d-flex flex-wrap justify-between mt-3 container-series">
                     {series.map((s) => (
                       <SerieCard
                         key={s.id}
@@ -106,7 +108,7 @@ export const Inicio = () => {
 
                 <section id="MostWatchedSeriesCard" className="mb-4">
                   <Titulo titulo="Most Watched Series" />
-                  <div className="d-flex flex-wrap justify-between mt-3">
+                  <div className="d-flex flex-wrap justify-between mt-3 container-most-serie">
                     {seriesMasVistas.map((s) => (
                       <MostWatchedSeriesCard
                         key={s.id}
@@ -120,7 +122,7 @@ export const Inicio = () => {
 
                 <section id="AllSeriesCard" className="mb-3">
                   <Titulo titulo="All Series" />
-                  <div className="d-flex flex-wrap justify-between mt-3">
+                  <div className="d-flex flex-wrap justify-between mt-3 container-all-serie">
                     {todasLasSeries.map((s) => (
                       <AllSeriesCard
                         key={s.id}
@@ -134,7 +136,7 @@ export const Inicio = () => {
 
                 <section id="AllSeriesCard" className="mb-3">
                   <Titulo titulo="All Movies" />
-                  <div className="d-flex flex-wrap justify-between mt-3">
+                  <div className="d-flex flex-wrap justify-between mt-3 container-all-movie">
                     {todasLasPeliculas.map((s) => (
                       <AllMoviesCard
                         key={s.id}
