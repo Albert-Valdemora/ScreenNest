@@ -3,11 +3,11 @@ import { AuthContext } from "./auth/authContext";
 import { AppRouter } from "./components/routers/AppRouter";
 import { useHttp } from "./hooks/useHttp";
 
-const urlSerie = 'https://api.themoviedb.org/3/tv/popular?api_key=b0a9ee189c3906a9d1b7278103141c0d';
-const urlSeriesMasVistas = 'https://api.themoviedb.org/3/trending/tv/day?api_key=b0a9ee189c3906a9d1b7278103141c0d';
-const urlTodasLasSeries = 'https://api.themoviedb.org/3/discover/tv?api_key=b0a9ee189c3906a9d1b7278103141c0d';
-const urlTodasLasPeliculas = 'https://api.themoviedb.org/3/discover/movie?api_key=b0a9ee189c3906a9d1b7278103141c0d'
-const urlTopSerie = 'https://api.themoviedb.org/3/discover/tv?include_adult=false&include_null_first_air_dates=false&language=es-ES&page=1&sort_by=popularity.desc&api_key=b0a9ee189c3906a9d1b7278103141c0d'
+const urlSerie = process.env.REACT_APP_urlSerie;
+const urlSeriesMasVistas = process.env.REACT_APP_urlSeriesMasVistas;
+const urlTodasLasSeries = process.env.REACT_APP_urlTodasLasSeries;
+const urlTodasLasPeliculas = process.env.REACT_APP_urlTodasLasPeliculas;
+const urlTopSerie = process.env.REACT_APP_urlTopSerie;
 
 export const App = () => {
   const [serie, setSerie] = useState([]);
@@ -26,10 +26,10 @@ export const App = () => {
   const { data: topSerieData } = useHttp(urlTopSerie);
 
   useEffect(() => {
-    if (serieData) {
+    if (serieData) {      
       setSerie(serieData);
     }
-    if (mostWatchedSeriesData) {
+    if (mostWatchedSeriesData) {   
       setMostWatchedSeries(mostWatchedSeriesData);
     }
     if(allSeriData){

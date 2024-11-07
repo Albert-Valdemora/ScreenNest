@@ -102,18 +102,21 @@ const Card = styled.div`
 `;
 
 export const MoviePeli = () => {
-  const { serie, allMovie, peliculaEncontrada } = useContext(AuthContext);
+  const { serie, allMovie, peliculaEncontrada, mostWatchedSeries } = useContext(AuthContext);
   const { moviePeliId } = useParams();
 
   const selectedSerie = useSearch(serie?.results || [], moviePeliId);
   const selectedMovie = useSearch(allMovie?.results || [], moviePeliId);
   const selectedSearchMovie = useSearch(peliculaEncontrada?.results || [], moviePeliId);
+  const selectedmostWatchedSeries = useSearch(mostWatchedSeries?.results || [], moviePeliId);
   
-  const hero = selectedSerie || selectedMovie || selectedSearchMovie;
+  const hero = selectedSerie || selectedMovie || selectedSearchMovie || selectedmostWatchedSeries;
   
-  
-  const isSerie = !!selectedSerie;
-  const relatedMovies = isSerie ? serie.results : allMovie.results; 
+
+
+  const isSerie = !!selectedSerie || !!selectedmostWatchedSeries;
+  const relatedMovies = isSerie ? (serie?.results || mostWatchedSeries?.results || []) : allMovie?.results || [];
+
   
   if (!hero) {
     return <Container>No se encontró la información</Container>;
