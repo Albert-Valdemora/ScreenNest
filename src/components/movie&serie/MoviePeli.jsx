@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { useSearch } from "../../hooks/useSearch";
 import { AuthContext } from "../../auth/authContext";
 import { Link, useParams } from "react-router-dom";
@@ -112,7 +112,9 @@ export const MoviePeli = () => {
   
   const hero = selectedSerie || selectedMovie || selectedSearchMovie || selectedmostWatchedSeries;
   
-
+  useEffect(() => {
+    window.scrollTo(0, 0); 
+  }, [moviePeliId]); 
 
   const isSerie = !!selectedSerie || !!selectedmostWatchedSeries;
   const relatedMovies = isSerie ? (serie?.results || mostWatchedSeries?.results || []) : allMovie?.results || [];
