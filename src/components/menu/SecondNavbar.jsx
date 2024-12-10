@@ -5,13 +5,11 @@ export const SecondNavbar = () => {
   const navigation = [
     { name: "Sobre Nosotros", href: "/AboutUs", current: false },
     { name: "Preguntas Frecuentes", href: "/FAQs", current: false },
-    { name: "Política de Privacidad", href: "/PrivacyPolicy", current: false },
     {
       name: "Términos y Condiciones",
       href: "/TermsConditions",
       current: false,
-    },
-    { name: "Política de DMCA", href: "/DMCAPolicy", current: false },
+    }
   ];
 
   function classNames(...classes) {

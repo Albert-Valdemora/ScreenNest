@@ -133,13 +133,10 @@ export const MoviePeli = () => {
         />
         <Title>{hero.original_name || hero.original_title}</Title>
         <Overview>{hero.overview}</Overview>
-        <ButtonContainer>
-          <Button>Agregar a Favoritos</Button>
-          <Button>Compartir</Button>
-        </ButtonContainer>
+       
       </Header>
       
-      <h2>Películas Relacionadas</h2>
+      <h2 className="mt-5">Películas Relacionadas</h2>
       <RelatedCards>
         {relatedMovies.map((related) => (
           <Card key={related.id}>

@@ -15,57 +15,46 @@ export const AboutUs = () => {
     <div className='container-about'>
       <header className='cont-header'>
         <div className='cont-info'>
-          <h2>About Us</h2>
-          <h3>Redefining the future of technology</h3>
+          <h2>ScreenNest</h2>
+          <h3>Descubre | Explora | Disfruta.</h3>
         </div>
       </header>
 
       <main className="cont-main">
         <div className="cont-main-info">
-          <h2>Our Mission</h2>
-          <p>We're on a relentless pursuit to revolutionize tecnology, creating inovative solutions that challenge the status quo and improve lives across the globe.</p>
-          <button className='btn-main'>Discover More 👉</button>
+          <h2>Nuestra Misión</h2>
+          <p>Ofrecer una plataforma accesible y visualmente atractiva para que los usuarios puedan descubrir y disfrutar de sus películas favoritas, mejorando la experiencia de navegación mediante tecnologías modernas.</p>
         </div>
 
-        <div className="cont-main-autor">
-          <h2>Our Team</h2>
-          <div className="cont-main-team">
-            <div className="card-team">
-              <img src="https://img.freepik.com/foto-gratis/pintura-lago-montana-montana-al-fondo_188544-9126.jpg" alt="" />
-              <h3>Alex Johnson</h3>
-              <h4>Visionary CEO</h4>
-            </div>
-            <div className="card-team">
+        <div className="cont-main-autor text-center">
+          <h2>Desarrollador Principal</h2>
+          <div className="cont-main-team mt-5">
+            <div className="card-team text-center">
               <img src="https://img.freepik.com/foto-gratis/pintura-lago-montana-montana-al-fondo_188544-9126.jpg" alt="" />
               <h3>Albert Valdemora</h3>
-              <h4>Design Guru</h4>
-            </div>
-            <div className="card-team">
-              <img src="https://img.freepik.com/foto-gratis/pintura-lago-montana-montana-al-fondo_188544-9126.jpg" alt="" />
-              <h3>Taylor Swift</h3>
-              <h4>Tech Innovator</h4>
+              <p>Desarrollador Front-end apasionado por crear experiencias visuales únicas y mejorar la interacción usuario-aplicación.</p>
             </div>
           </div>
         </div>
 
-        <div className="cont-main-values">
-          <h2>Our Core Values</h2>
+        <div className="cont-main-values text-center">
+          <h2>Características Principales</h2>
           <div className="cont-values">
             <div className="values-info">
-              <h4>Innovation</h4>
-              <p>Pushing boundaries and embracing the unknown</p>
+              <h4>🎥 Explora Películas</h4>
+              <p>Accede a un extenso catálogo de películas organizadas en un diseño limpio y atractivo.</p>
             </div>
             <div className="values-info">
-              <h4>Innovation</h4>
-              <p>Pushing boundaries and embracing the unknown</p>
+              <h4>🔍 Búsqueda y Filtrado Avanzado</h4>
+              <p>Encuentra películas por título, género, año de lanzamiento y más.</p>
             </div>
             <div className="values-info">
-              <h4>Innovation</h4>
-              <p>Pushing boundaries and embracing the unknown</p>
+              <h4>📄 Detalles Completos</h4>
+              <p>Obtén información detallada de cada película, incluyendo sinopsis, reparto y calificación.</p>
             </div>
             <div className="values-info">
-              <h4>Innovation</h4>
-              <p>Pushing boundaries and embracing the unknown</p>
+              <h4>📱 Diseño Responsivo</h4>
+              <p>Experimenta una navegación fluida en cualquier dispositivo, desde computadoras de escritorio hasta smartphones.</p>
             </div>
           </div>
         </div>

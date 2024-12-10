@@ -8,9 +8,7 @@ import { Link, NavLink } from 'react-router-dom'
 const navigation = [
   { name: 'Sobre Nosotros', href: '/AboutUs', current: false },
   { name: 'Preguntas Frecuentes', href: '/FAQs', current: false },
-  { name: 'Política de Privacidad', href: '/PrivacyPolicy', current: false },
-  { name: 'Términos y Condiciones', href: '/TermsConditions', current: false },
-  { name: 'Política de DMCA', href: '/DMCAPolicy', current: false },
+  { name: 'Términos y Condiciones', href: '/TermsConditions', current: false }
 ]
 
 function classNames(...classes) {
@@ -21,7 +19,7 @@ export const Navbar = () => {
 
     const imagePath = `/assets/Logo.png`
   return (
-    <Disclosure as="nav" className=" bg-[#191818]">
+    <Disclosure as="nav" className="bg-[#191818]">
       {({ open }) => (
         <>
           <div className="mx-auto w-7xl px-24">
